@@ -1,6 +1,6 @@
 /*estilo general*/
 
-@media (max-width: 767px) {
+/*@media (max-width: 767px) {
 
     a {
         text-decoration: none;
@@ -13,11 +13,11 @@
         font-family: 'Righteous';
         } 
         nav li {
-        width: 8%;
-        padding:5px 5px;
+        width: 20%;
+        padding:2px 2px;
         background-color: #053540;
         border:2px ridge #2A8C68;
-        border-radius: 5px;
+        border-radius: 10px;
         text-align:center;
         color: #5CF2AC;
         }
@@ -26,39 +26,45 @@
         color:#053540;
     }
 
-}
+}*/
 
 @media (min-width: 768px) {
 
-    a {
-        text-decoration: none;
-        color: black;
-    }
     nav a {
-        text-decoration:none;
-        color:inherit;
-        font-size: 15px;
+        font-size: 20px;
         font-family: 'Righteous';
-        } 
-        nav li {
-        width: 8%;
+    } 
+    nav li {
+        width: 25%;
         padding:5px 5px;
-        background-color:#053540;
-        border:2px ridge #2A8C68;
-        border-radius: 5px;
         text-align:center;
-        color:#5CF2AC;
-        }
-        nav li:hover {
-        background-color:#50F296;
-        color:#053540;
     }
+
 
 }
 
 
-.Menu li {
-    margin: 1px;
+
+nav {
+    padding: 20px;
+    margin: 20px;
+}
+
+.navbar-brand {
+    font-size: 35px;
+    color: #010326 !important;
+}
+
+.nav-link {
+    color: #010326 !important;
+}
+
+#navbarNav {
+    justify-content: end;
+}
+
+#fondoazul {
+    background-color: #5CF2AC;
 }
 
 
@@ -82,14 +88,11 @@ h2 {
 
 
 h3 {
+    margin-top: 50px;
     color: #010326;
     font-weight: bolder;
     font-size: 30px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    text-align: center;
-}
-
-form {
     text-align: center;
 }
 
@@ -102,6 +105,19 @@ form {
 
 .piePag p {
     margin: 0 -2px;
+}
+
+.redes {
+    display: flex;
+    justify-content: end;
+    margin: -42px 10px;
+
+}
+.redes img {
+    background-color: transparent;
+    width: 40px;
+    height: 40px;
+    margin-bottom: 7px;
 }
 
 
@@ -120,7 +136,7 @@ ul {
 }
 
 .productosIndex img {
-    margin: 20px;
+    margin: 30px;
 }
 
 .videosIndex {
@@ -138,6 +154,23 @@ hr {
 
 
 /*TODO: quienes somos*/
+
+
+
+
+#carouselExampleCaptions p{
+    font-size: 25px;
+}
+
+#carouselExampleCaptions h5 {
+    font-size: 30px;
+}
+
+#carouselExampleCaptions img {
+    height: 86%;
+    width: 86%;
+    margin: 0 auto;
+}
 
 .imagenesQuienesSomos {
     display: flex;
@@ -211,9 +244,13 @@ hr {
 .productos button {
     display: block;
     border-radius: 10px;
-    width: 200px;
+    width: 150px;
+    height: 35px;
     font-size: 15px;
-    margin: 10px auto;
+    border: solid 2px black;
+    margin: 5px auto;
+    background-color: #010326;
+    color: #5CF2AC;
 }
 
 .prod1 {

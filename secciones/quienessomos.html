@@ -20,27 +20,42 @@
     
     <header>
 
-        <h1>TecStore</h1>
+    
 
-        <nav class="container">
-                <ul class="row Menu">
-                    <li class="col-6 col-sm-auto">
-                        <a href="../index.html">Home</a>
-                    </li>
-                    <li class="col-6 col-sm-auto">
-                        <a href="quienessomos.html">Nosotros</a>
-                    </li>
-                    <li class="col-6 col-sm-auto">
-                        <a href="productos.html">Productos</a>
-                    </li>
-                    <li class="col-6 col-sm-auto">
-                        <a href="galeria.html">Galeria</a>
-                    </li>
-                    <li class="col-6 col-sm-auto">
-                        <a href="contacto.html">Contacto</a>
-                    </li>
-                </ul>  
+        <nav id="fondoazul" class="navbar navbar-expand-lg navbar-light">
+            <div class="container">
+            <a class="navbar-brand" href="quienessomos.html">
+                <img src="/desafio 5/imagenes/fav1.png" alt="logo" width="40" height="40" class="d-inline-block align-text-center ">TecStore
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="../index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="quienessomos.html">Nosotros</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="productos.html">Productos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="galeria.html">Galeria</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contacto.html">Contacto</a>
+                </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+            </div>
         </nav>
+
     </header>
 
     <div>
@@ -51,7 +66,37 @@
     <!--delimitando secciones de codigo-->
 
 
-    <div class="imagenesQuienesSomos">
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        </div>
+        <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="../imagenes/tienda 1.jpg" class="d-block" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+            <h5>Sede principal</h5>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="../imagenes/tienda 2.jpg" class="d-block" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+            <h5>Sede Norte</h5>
+            </div>
+        </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+
+    <!--<div class="imagenesQuienesSomos">
 
         <div class="sedePrin">
             <img src="../imagenes/tienda.jpg" alt="nuestra tienda" title="nosotros">
@@ -62,7 +107,7 @@
             <img src="../imagenes/tienda.jpg" alt="nuestra tienda" title="nosotros">  
             <p>Sede Norte</p>
         </div>
-    </div>
+    </div>-->
 
     <section>  
 
@@ -92,7 +137,14 @@
     <footer class="piePag">
         <P>Contacto: TecStore@.com.ar</P>
         <p>Todos los derechos reservados</p>
+
+        <div class="redes">
+            <img src="../imagenes/whatsapp.png" alt="redes sociales" title="whatsapp">
+            <img src="../imagenes/instagram.png" alt="redes sociales" title="instagram">
+            <img src="../imagenes/facebook.png" alt="redes sociales" title="facebook">
+        </div>
     </footer>
-    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>
