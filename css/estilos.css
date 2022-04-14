@@ -9,14 +9,14 @@
     nav a {
         text-decoration:none;
         color:inherit;
-        font-size: 8px;
+        font-size: 15px;
         font-family: 'Righteous';
         } 
         nav li {
-        width:6%;
-        padding:3px 3px;
+        width: 8%;
+        padding:5px 5px;
         background-color: #053540;
-        border:1px ridge #2A8C68;
+        border:2px ridge #2A8C68;
         border-radius: 5px;
         text-align:center;
         color: #5CF2AC;
@@ -41,11 +41,11 @@
         font-family: 'Righteous';
         } 
         nav li {
-        width:8%;
+        width: 8%;
         padding:5px 5px;
         background-color:#053540;
         border:2px ridge #2A8C68;
-        border-radius: 10px;
+        border-radius: 5px;
         text-align:center;
         color:#5CF2AC;
         }
@@ -56,10 +56,6 @@
 
 }
 
-.Menu {
-    display: flex;
-    margin-left: 20px;
-}
 
 .Menu li {
     margin: 1px;
@@ -71,8 +67,8 @@ h1 {
     font-size: 80px;
     font-family: 'Roboto', sans-serif;
     text-align: left;
-    margin-left: 25px;
-    margin-bottom: -12px;
+    margin-left: 35px;
+    margin-bottom: 12px;
     text-decoration: underline;
 }
 
@@ -134,12 +130,11 @@ ul {
 
 }
 
-
 hr {
     width: 80%;
-    margin-top: -25px;
-    margin-bottom: 50px;
+    margin: 50px auto;
 }
+
 
 
 /*TODO: quienes somos*/
@@ -311,7 +306,6 @@ hr {
         align-items: center;
         grid-template-columns: 1fr 1fr 1fr 1fr;
         grid-column-gap: 5px;
-        grid-template-rows: 1fr 1fr 1fr 1fr;
         grid-row-gap: 5px;
     }
 }
