@@ -52,11 +52,11 @@ nav {
 
 .navbar-brand {
     font-size: 35px;
-    color: #010326 !important;
+    color: #5CF2AC !important;
 }
 
 .nav-link {
-    color: #010326 !important;
+    color: #5CF2AC !important;
 }
 
 #navbarNav {
@@ -64,7 +64,7 @@ nav {
 }
 
 #fondoazul {
-    background-color: #5CF2AC;
+    background-color: #010326;
 }
 
 
@@ -107,6 +107,11 @@ h3 {
     margin: 0 -2px;
 }
 
+.redes p{
+
+    margin: 8px;
+}
+
 .redes {
     display: flex;
     justify-content: end;
@@ -135,6 +140,7 @@ ul {
 
 }
 
+
 .productosIndex img {
     margin: 30px;
 }
@@ -160,10 +166,12 @@ hr {
 
 #carouselExampleCaptions p{
     font-size: 25px;
+    color: #5CF2AC;
 }
 
 #carouselExampleCaptions h5 {
     font-size: 30px;
+    color: #5CF2AC;
 }
 
 #carouselExampleCaptions img {
@@ -172,26 +180,8 @@ hr {
     margin: 0 auto;
 }
 
-.imagenesQuienesSomos {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.imagenesQuienesSomos img {
-    width: 400px;
-    height: 250px;
-    margin: 20px 20px 0px 20px;
-    border: 8px double black;
-    border-radius: 10px;
-}
-
-.imagenesQuienesSomos p {
-    margin-top: 0px;
-    font-size: 20px;
-    font-style: italic;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    text-align: center;
+.carousel-inner img {
+    margin: 0 auto;
 }
 
 
@@ -202,7 +192,6 @@ hr {
 }
 
 .parrafo__Gris {
-    background-color: rgb(199, 198, 198);
     margin: 20px;
 }
 
@@ -211,7 +200,8 @@ hr {
 }
 
 .maps {
-    text-align: center;
+    text-align: center; 
+    
 }
 
 /*!productos*/
