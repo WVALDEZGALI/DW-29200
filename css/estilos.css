@@ -179,47 +179,7 @@ hr {
   color: #5CF2AC;
 }
 
-.prod1 {
-  border: 2px solid black;
-  border-radius: 20px;
-  width: 350px;
-  height: 350px;
-  margin: 10px;
-}
-
-.prod2 {
-  border: 2px solid black;
-  border-radius: 20px;
-  width: 350px;
-  height: 350px;
-  margin: 10px;
-}
-
-.prod3 {
-  border: 2px solid black;
-  border-radius: 20px;
-  width: 350px;
-  height: 350px;
-  margin: 10px;
-}
-
-.prod4 {
-  border: 2px solid black;
-  border-radius: 20px;
-  width: 350px;
-  height: 350px;
-  margin: 10px;
-}
-
-.prod5 {
-  border: 2px solid black;
-  border-radius: 20px;
-  width: 350px;
-  height: 350px;
-  margin: 10px;
-}
-
-.prod6 {
+.prod1, .prod6, .prod5, .prod4, .prod3, .prod2 {
   border: 2px solid black;
   border-radius: 20px;
   width: 350px;

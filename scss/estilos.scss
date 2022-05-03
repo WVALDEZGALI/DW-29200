@@ -21,7 +21,6 @@
 }
 
 
-
 .navbar-brand {
     font-size: 35px;
     color: #5CF2AC !important;
@@ -227,42 +226,22 @@ hr {
 
 
 .prod2 {
-    border: $borde-card;
-    border-radius: $borderadius-card;
-    width: $ancho-card;
-    height: $alto-card;
-    margin: $margen-card;
+    @extend .prod1;
 }
 
 .prod3 {
-    border: $borde-card;
-    border-radius: $borderadius-card;
-    width: $ancho-card;
-    height: $alto-card;
-    margin: $margen-card;
+    @extend .prod1;
 }
 
 .prod4 {
-    border: $borde-card;
-    border-radius: $borderadius-card;
-    width: $ancho-card;
-    height: $alto-card;
-    margin: $margen-card;
+    @extend .prod1;
 }
 
 .prod5 {
-    border: $borde-card;
-    border-radius: $borderadius-card;
-    width: $ancho-card;
-    height: $alto-card;
-    margin: $margen-card;
+    @extend .prod1;
 }
 .prod6 {
-    border: $borde-card;
-    border-radius: $borderadius-card;
-    width: $ancho-card;
-    height: $alto-card;
-    margin: $margen-card;
+    @extend .prod1;
 }
 
 .productos img:hover {
