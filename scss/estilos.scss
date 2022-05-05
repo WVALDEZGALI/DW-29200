@@ -299,6 +299,27 @@ hr {
 
 }
 
+/*ejemplo de mixins*/
+
+@mixin medidas ($padding, $margin) {
+    padding: $padding;
+    margin: $margin;
+}
+
+.ejemplo {
+    @include medidas ( 200px, 200px);
+}
+
+/*ejemplo de maps*/
+
+$objetos: (auto: red, cielo: blue, casa: black);
+
+@each $cosa, $color in $objetos {
+    .ejemplo--#{$cosa} {
+        background-color: $color;
+    } 
+}
+
 /*TODO:*/
 
 

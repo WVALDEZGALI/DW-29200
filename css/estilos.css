@@ -229,6 +229,25 @@ hr {
   justify-content: center;
 }
 
+/*ejemplo de mixins*/
+.ejemplo {
+  padding: 200px;
+  margin: 200px;
+}
+
+/*ejemplo de maps*/
+.ejemplo--auto {
+  background-color: red;
+}
+
+.ejemplo--cielo {
+  background-color: blue;
+}
+
+.ejemplo--casa {
+  background-color: black;
+}
+
 /*TODO:*/
 
 /*# sourceMappingURL=estilos.css.map */
